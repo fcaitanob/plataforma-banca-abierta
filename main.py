@@ -83,6 +83,12 @@ def inicio():
         de una entidad prestamista.</p>
 
         <div class="panel">
+            <h2>Resultado de la consulta</h2>
+            <pre id="resultado">Esperando una consulta...</pre>
+        </div>
+
+
+        <div class="panel">
             <h2>1. Consultar tasa pública</h2>
             <p class="nota">
                 Consulta la tasa de interés sin utilizar un token.
@@ -114,10 +120,6 @@ def inicio():
             </button>
         </div>
 
-        <div class="panel">
-            <h2>Resultado de la consulta</h2>
-            <pre id="resultado">Esperando una consulta...</pre>
-        </div>
 
         <script>
             async function consultar(ruta) {
